@@ -1,0 +1,28 @@
+<h2>📋 רשימת תלמידים</h2>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>מזהה תלמיד</th>
+      <th>שם פרטי</th>
+      <th>שם משפחה</th>
+      <th>תעודת זהות</th>
+      <th>כתובת</th>
+      <th>טלפון</th>
+      <th>דוא"ל</th>
+      <th>תאריך הרשמה</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let student of students">
+      <td>{{ student.studentID }}</td>
+      <td>{{ student.firstName }}</td>
+      <td>{{ student.lastName }}</td>
+      <td>{{ student.idNumber }}</td>
+      <td>{{ student.address }}</td>
+      <td>{{ student.phoneNumber }}</td>
+      <td>{{ student.email }}</td>
+      <td>{{ student.enrollmentDate | date:'dd/MM/yyyy' }}</td>
+    </tr>
+  </tbody>
+</table>

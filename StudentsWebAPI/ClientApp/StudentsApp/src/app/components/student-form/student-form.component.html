@@ -1,0 +1,12 @@
+<h2>הוספת תלמיד חדש</h2>
+<form (ngSubmit)="addStudent()">
+  <label>שם פרטי: <input type="text" [(ngModel)]="student.firstName" name="firstName" required></label><br>
+  <label>שם משפחה: <input type="text" [(ngModel)]="student.lastName" name="lastName" required></label><br>
+  <label>תעודת זהות: <input type="text" [(ngModel)]="student.idNumber" name="idNumber" required></label><br>
+  <label>תאריך לידה: <input type="date" [(ngModel)]="student.birthDate" name="birthDate" required></label><br>
+  <label>כתובת: <input type="text" [(ngModel)]="student.address" name="address"></label><br>
+  <label>טלפון: <input type="text" [(ngModel)]="student.phoneNumber" name="phoneNumber"></label><br>
+  <label>דוא"ל: <input type="email" [(ngModel)]="student.email" name="email"></label><br>
+  <label>תאריך הרשמה: <input type="date" [(ngModel)]="student.enrollmentDate" name="enrollmentDate" required></label><br>
+  <button type="submit">הוסף תלמיד</button>
+</form>

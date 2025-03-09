@@ -1,0 +1,326 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|c:\\users\\cohen\\source\\repos\\studentswebapi\\studentswebapi\\clientapp\\studentsapp\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|solutionrelative:studentswebapi\\clientapp\\studentsapp\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|c:\\users\\cohen\\source\\repos\\studentswebapi\\studentswebapi\\clientapp\\studentsapp\\src\\app\\components\\student-list\\student-list.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|solutionrelative:studentswebapi\\clientapp\\studentsapp\\src\\app\\components\\student-list\\student-list.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|c:\\users\\cohen\\source\\repos\\studentswebapi\\studentswebapi\\clientapp\\studentsapp\\src\\app\\components\\student-list\\student-list.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|solutionrelative:studentswebapi\\clientapp\\studentsapp\\src\\app\\components\\student-list\\student-list.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|c:\\users\\cohen\\source\\repos\\studentswebapi\\studentswebapi\\clientapp\\studentsapp\\src\\app\\services\\student.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|solutionrelative:studentswebapi\\clientapp\\studentsapp\\src\\app\\services\\student.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|c:\\users\\cohen\\source\\repos\\studentswebapi\\studentswebapi\\clientapp\\studentsapp\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|solutionrelative:studentswebapi\\clientapp\\studentsapp\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|c:\\users\\cohen\\source\\repos\\studentswebapi\\studentswebapi\\clientapp\\studentsapp\\src\\app\\models\\student.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|solutionrelative:studentswebapi\\clientapp\\studentsapp\\src\\app\\models\\student.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|c:\\users\\cohen\\source\\repos\\studentswebapi\\studentswebapi\\clientapp\\studentsapp\\src\\app\\components\\student-form\\student-form.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|solutionrelative:studentswebapi\\clientapp\\studentsapp\\src\\app\\components\\student-form\\student-form.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|c:\\users\\cohen\\source\\repos\\studentswebapi\\studentswebapi\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|solutionrelative:studentswebapi\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|c:\\users\\cohen\\source\\repos\\studentswebapi\\studentswebapi\\clientapp\\studentsapp\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|solutionrelative:studentswebapi\\clientapp\\studentsapp\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|c:\\users\\cohen\\source\\repos\\studentswebapi\\studentswebapi\\clientapp\\studentsapp\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|solutionrelative:studentswebapi\\clientapp\\studentsapp\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|c:\\users\\cohen\\source\\repos\\studentswebapi\\studentswebapi\\clientapp\\studentsapp\\src\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|solutionrelative:studentswebapi\\clientapp\\studentsapp\\src\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|c:\\users\\cohen\\source\\repos\\studentswebapi\\studentswebapi\\clientapp\\studentsapp\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|solutionrelative:studentswebapi\\clientapp\\studentsapp\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|c:\\users\\cohen\\source\\repos\\studentswebapi\\studentswebapi\\clientapp\\studentsapp\\src\\app\\components\\student-form\\student-form.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|solutionrelative:studentswebapi\\clientapp\\studentsapp\\src\\app\\components\\student-form\\student-form.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|c:\\users\\cohen\\source\\repos\\studentswebapi\\studentswebapi\\studentswebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|solutionrelative:studentswebapi\\studentswebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|c:\\users\\cohen\\source\\repos\\studentswebapi\\studentswebapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|solutionrelative:studentswebapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|c:\\users\\cohen\\source\\repos\\studentswebapi\\studentswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|solutionrelative:studentswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|c:\\users\\cohen\\source\\repos\\studentswebapi\\studentswebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|solutionrelative:studentswebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|c:\\users\\cohen\\source\\repos\\studentswebapi\\studentswebapi\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D7EE22-AC46-4291-B9B8-F9BFD6E2B157}|StudentsWebAPI\\StudentsWebAPI.csproj|solutionrelative:studentswebapi\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\ClientApp\\StudentsApp\\.gitignore",
+              "RelativeDocumentMoniker": "StudentsWebAPI\\ClientApp\\StudentsApp\\.gitignore",
+              "ToolTip": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\ClientApp\\StudentsApp\\.gitignore",
+              "RelativeToolTip": "StudentsWebAPI\\ClientApp\\StudentsApp\\.gitignore",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-09T23:52:43.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "student-list.component.html",
+              "DocumentMoniker": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\components\\student-list\\student-list.component.html",
+              "RelativeDocumentMoniker": "StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\components\\student-list\\student-list.component.html",
+              "ToolTip": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\components\\student-list\\student-list.component.html",
+              "RelativeToolTip": "StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\components\\student-list\\student-list.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-09T21:34:15.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "student.model.ts",
+              "DocumentMoniker": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\models\\student.model.ts",
+              "RelativeDocumentMoniker": "StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\models\\student.model.ts",
+              "ToolTip": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\models\\student.model.ts",
+              "RelativeToolTip": "StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\models\\student.model.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-09T21:31:15.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "student-form.component.ts",
+              "DocumentMoniker": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\components\\student-form\\student-form.component.ts",
+              "RelativeDocumentMoniker": "StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\components\\student-form\\student-form.component.ts",
+              "ToolTip": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\components\\student-form\\student-form.component.ts",
+              "RelativeToolTip": "StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\components\\student-form\\student-form.component.ts",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAIAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-09T21:41:08.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "student-list.component.ts",
+              "DocumentMoniker": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\components\\student-list\\student-list.component.ts",
+              "RelativeDocumentMoniker": "StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\components\\student-list\\student-list.component.ts",
+              "ToolTip": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\components\\student-list\\student-list.component.ts",
+              "RelativeToolTip": "StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\components\\student-list\\student-list.component.ts",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-09T21:34:41.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "student.service.ts",
+              "DocumentMoniker": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\services\\student.service.ts",
+              "RelativeDocumentMoniker": "StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\services\\student.service.ts",
+              "ToolTip": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\services\\student.service.ts",
+              "RelativeToolTip": "StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\services\\student.service.ts",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBcAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-09T21:31:49.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "app.module.ts",
+              "DocumentMoniker": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\app.module.ts",
+              "RelativeDocumentMoniker": "StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\app.module.ts",
+              "ToolTip": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\app.module.ts",
+              "RelativeToolTip": "StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\app.module.ts",
+              "ViewState": "AQIAABIAAAAAAAAAAAAmwCQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-09T21:24:13.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "StudentsWebAPI\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\Models\\Student.cs",
+              "RelativeToolTip": "StudentsWebAPI\\Models\\Student.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAkwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T20:08:14.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "app-routing.module.ts",
+              "DocumentMoniker": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\app-routing.module.ts",
+              "RelativeDocumentMoniker": "StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\app-routing.module.ts",
+              "ToolTip": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\app-routing.module.ts",
+              "RelativeToolTip": "StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\app-routing.module.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-09T21:45:28.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "app.component.html",
+              "DocumentMoniker": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\app.component.html",
+              "RelativeDocumentMoniker": "StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\app.component.html",
+              "ToolTip": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\app.component.html",
+              "RelativeToolTip": "StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\app.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-09T21:56:01.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\ClientApp\\StudentsApp\\src\\styles.css",
+              "RelativeDocumentMoniker": "StudentsWebAPI\\ClientApp\\StudentsApp\\src\\styles.css",
+              "ToolTip": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\ClientApp\\StudentsApp\\src\\styles.css",
+              "RelativeToolTip": "StudentsWebAPI\\ClientApp\\StudentsApp\\src\\styles.css",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAcwFYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-09T22:04:11.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\ClientApp\\StudentsApp\\src\\index.html",
+              "RelativeDocumentMoniker": "StudentsWebAPI\\ClientApp\\StudentsApp\\src\\index.html",
+              "ToolTip": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\ClientApp\\StudentsApp\\src\\index.html",
+              "RelativeToolTip": "StudentsWebAPI\\ClientApp\\StudentsApp\\src\\index.html",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-09T22:10:40.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "student-form.component.html",
+              "DocumentMoniker": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\components\\student-form\\student-form.component.html",
+              "RelativeDocumentMoniker": "StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\components\\student-form\\student-form.component.html",
+              "ToolTip": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\components\\student-form\\student-form.component.html",
+              "RelativeToolTip": "StudentsWebAPI\\ClientApp\\StudentsApp\\src\\app\\components\\student-form\\student-form.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-09T21:45:58.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "StudentsWebAPI\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "StudentsWebAPI\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAgwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T20:31:51.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "StudentsWebAPI\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "StudentsWebAPI\\Controllers\\StudentsController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T20:26:04.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StudentsWebAPI",
+              "DocumentMoniker": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\StudentsWebAPI.csproj",
+              "RelativeDocumentMoniker": "StudentsWebAPI\\StudentsWebAPI.csproj",
+              "ToolTip": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\StudentsWebAPI.csproj",
+              "RelativeToolTip": "StudentsWebAPI\\StudentsWebAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-09T20:07:09.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "StudentsWebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\Program.cs",
+              "RelativeToolTip": "StudentsWebAPI\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T20:06:30.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "StudentsWebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Cohen\\source\\repos\\StudentsWebAPI\\StudentsWebAPI\\appsettings.json",
+              "RelativeToolTip": "StudentsWebAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-09T19:35:30.013Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
