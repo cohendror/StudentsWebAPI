@@ -1,5 +1,9 @@
 <h2>📋 רשימת תלמידים</h2>
 
+<!-- 🔍 תיבת חיפוש -->
+<input type="text" [(ngModel)]="searchValue" (input)="applyFilter()" placeholder="חפש לפי שם פרטי">
+
+<!-- 📋 טבלת תלמידים -->
 <table border="1">
   <thead>
     <tr>
@@ -14,7 +18,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let student of students">
+    <tr *ngFor="let student of getPaginatedStudents()">
       <td>{{ student.studentID }}</td>
       <td>{{ student.firstName }}</td>
       <td>{{ student.lastName }}</td>
@@ -26,3 +30,10 @@
     </tr>
   </tbody>
 </table>
+
+<!-- 📄 פאגינציה -->
+<div>
+  <button (click)="prevPage()" [disabled]="currentPage === 1">קודם</button>
+  עמוד {{ currentPage }} מתוך {{ getTotalPages() }}
+  <button (click)="nextPage()" [disabled]="currentPage === getTotalPages()">הבא</button>
+</div>
