@@ -15,10 +15,11 @@ namespace StudentsWebAPI.Controllers
             _context = context;
         }
 
-        [HttpGet]
+        [HttpGet("GetStudents")] // ⬅ Add explicit route name
         public ActionResult<IEnumerable<Student>> GetStudents()
         {
             return Ok(_context.Students.ToList());
         }
+
     }
 }

@@ -1,39 +1,40 @@
-<h2>📋 רשימת תלמידים</h2>
-
-<!-- 🔍 תיבת חיפוש -->
-<input type="text" [(ngModel)]="searchValue" (input)="applyFilter()" placeholder="חפש לפי שם פרטי">
-
-<!-- 📋 טבלת תלמידים -->
-<table border="1">
-  <thead>
-    <tr>
-      <th>מזהה תלמיד</th>
-      <th>שם פרטי</th>
-      <th>שם משפחה</th>
-      <th>תעודת זהות</th>
-      <th>כתובת</th>
-      <th>טלפון</th>
-      <th>דוא"ל</th>
-      <th>תאריך הרשמה</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr *ngFor="let student of getPaginatedStudents()">
-      <td>{{ student.studentID }}</td>
-      <td>{{ student.firstName }}</td>
-      <td>{{ student.lastName }}</td>
-      <td>{{ student.idNumber }}</td>
-      <td>{{ student.address }}</td>
-      <td>{{ student.phoneNumber }}</td>
-      <td>{{ student.email }}</td>
-      <td>{{ student.enrollmentDate | date:'dd/MM/yyyy' }}</td>
-    </tr>
-  </tbody>
-</table>
-
-<!-- 📄 פאגינציה -->
 <div>
-  <button (click)="prevPage()" [disabled]="currentPage === 1">קודם</button>
-  עמוד {{ currentPage }} מתוך {{ getTotalPages() }}
-  <button (click)="nextPage()" [disabled]="currentPage === getTotalPages()">הבא</button>
+  <h2>📋 רשימת תלמידים</h2>
+  <input type="text" [(ngModel)]="searchValue" (input)="applyFilter()" placeholder="🔍 חפש לפי שם פרטי">
+
+  <table>
+    <thead>
+      <tr>
+        <th (click)="sort('studentID')"> מזהה תלמיד ⬆⬇</th>
+        <th (click)="sort('firstName')"> שם פרטי ⬆⬇</th>
+        <th (click)="sort('lastName')"> שם משפחה ⬆⬇</th>
+        <th (click)="sort('idNumber')"> תעודת זהות ⬆⬇</th>
+        <th (click)="sort('address')"> כתובת ⬆⬇</th>
+        <th (click)="sort('phoneNumber')"> טלפון ⬆⬇</th>
+        <th (click)="sort('email')"> דוא"ל ⬆⬇</th>
+        <th (click)="sort('enrollmentDate')"> תאריך הרשמה ⬆⬇</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let student of getPaginatedStudents()">
+        <td>{{ student.studentID }}</td>
+        <td>{{ student.firstName }}</td>
+        <td>{{ student.lastName }}</td>
+        <td>{{ student.idNumber }}</td>
+        <td>{{ student.address }}</td>
+        <td>{{ student.phoneNumber }}</td>
+        <td>{{ student.email }}</td>
+        <td>{{ student.enrollmentDate | date:'dd/MM/yyyy' }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 🔄 בקרת עימוד -->
+  <div>
+    <button (click)="goToFirstPage()" [disabled]="currentPage === 1">⏮ ראשון</button>
+    <button (click)="prevPage()" [disabled]="currentPage === 1">⬅ קודם</button>
+    <span>עמוד {{ currentPage }} מתוך {{ getTotalPages() }}</span>
+    <button (click)="nextPage()" [disabled]="currentPage === getTotalPages()">➡ הבא</button>
+    <button (click)="goToLastPage()" [disabled]="currentPage === getTotalPages()">⏭ אחרון</button>
+  </div>
 </div>
