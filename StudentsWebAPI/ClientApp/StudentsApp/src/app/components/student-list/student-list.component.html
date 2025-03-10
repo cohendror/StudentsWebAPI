@@ -1,6 +1,6 @@
 <div>
-  <h2>📋 רשימת תלמידים</h2>
-  <input type="text" [(ngModel)]="searchValue" (input)="applyFilter()" placeholder="🔍 חפש לפי שם פרטי">
+  <h2> רשימת תלמידים</h2>
+  <input type="text" [(ngModel)]="searchValue" (input)="applyFilter()" placeholder=" חפש לפי שם פרטי">
 
   <table>
     <thead>
@@ -29,7 +29,7 @@
     </tbody>
   </table>
 
-  <!-- 🔄 בקרת עימוד -->
+  
   <div>
     <button (click)="goToFirstPage()" [disabled]="currentPage === 1">⏮ ראשון</button>
     <button (click)="prevPage()" [disabled]="currentPage === 1">⬅ קודם</button>

@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
 })
 export class StudentFormComponent {
   studentForm: FormGroup;
-  isSubmitting = false; // למניעת שליחה כפולה
+  isSubmitting = false; 
 
   constructor(
     private fb: FormBuilder,
@@ -31,17 +31,17 @@ export class StudentFormComponent {
 
   addStudent(): void {
     if (this.studentForm.invalid) {
-      this.studentForm.markAllAsTouched(); // סימון שדות לא תקינים
+      this.studentForm.markAllAsTouched(); 
       return;
     }
 
     this.isSubmitting = true;
     this.studentService.addStudent(this.studentForm.value).subscribe(() => {
-      alert('✅ התלמיד נוסף בהצלחה!');
-      this.router.navigate(['/students']); // מעבר לרשימת התלמידים
+      alert(' התלמיד נוסף בהצלחה!');
+      this.router.navigate(['/students']); 
     }, error => {
-      console.error("❌ שגיאה בהוספת תלמיד:", error);
-      alert('❌ אירעה שגיאה, נסה שוב.');
+      console.error(" שגיאה בהוספת תלמיד:", error);
+      alert(' אירעה שגיאה, נסה שוב.');
       this.isSubmitting = false;
     });
   }

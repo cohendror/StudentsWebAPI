@@ -16,13 +16,13 @@ namespace StudentsWebAPI.Controllers
             _context = context;
         }
 
-        [HttpGet("GetStudents")] // ✅ Explicit route
+        [HttpGet("GetStudents")] 
         public ActionResult<IEnumerable<Student>> GetStudents()
         {
             return Ok(_context.Students.ToList());
         }
 
-        [HttpPost("AddStudent")] // ✅ API to add a new student
+        [HttpPost("AddStudent")] 
         public async Task<IActionResult> AddStudent([FromBody] Student student)
         {
             if (student == null)
