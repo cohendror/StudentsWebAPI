@@ -172,3 +172,4 @@ C:\Users\Cohen\source\repos\StudentsWebAPI\StudentsWebAPI\bin\Debug\net8.0\Clien
 C:\Users\Cohen\source\repos\StudentsWebAPI\StudentsWebAPI\bin\Debug\net8.0\ClientApp\StudentsApp\tsconfig.app.json
 C:\Users\Cohen\source\repos\StudentsWebAPI\StudentsWebAPI\bin\Debug\net8.0\ClientApp\StudentsApp\tsconfig.json
 C:\Users\Cohen\source\repos\StudentsWebAPI\StudentsWebAPI\bin\Debug\net8.0\ClientApp\StudentsApp\tsconfig.spec.json
+C:\Users\Cohen\source\repos\StudentsWebAPI\StudentsWebAPI\obj\Debug\net8.0\StudentsWebAPI.sourcelink.json
