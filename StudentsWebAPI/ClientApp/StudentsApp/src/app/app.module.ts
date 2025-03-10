@@ -38,7 +38,7 @@ import { MatSortModule } from '@angular/material/sort';
     BrowserAnimationsModule
   ],
   providers: [
-    { provide: Directionality, useValue: { value: 'rtl' } } // ✅ Enables RTL direction
+    { provide: Directionality, useValue: { value: 'rtl' } } 
   ],
   bootstrap: [AppComponent]
 })

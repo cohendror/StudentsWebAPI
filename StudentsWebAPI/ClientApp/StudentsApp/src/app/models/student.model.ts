@@ -3,9 +3,9 @@ export interface Student {
   firstName: string;
   lastName: string;
   idNumber: string;
-  birthDate: string;        // ✅ Keeping it as string for proper handling
+  birthDate: string;        
   address: string;
   phoneNumber: string;
   email: string;
-  enrollmentDate: string;   // ✅ Keeping it as string for proper handling
+  enrollmentDate: string;   
 }

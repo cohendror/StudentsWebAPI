@@ -23,32 +23,26 @@ export class StudentListComponent implements OnInit {
     this.loadStudents();
   }
 
-  /**
-   * ✅ טוען את כל הרשומות ומאפשר עימוד מקומי
-   */
+ 
   loadStudents(): void {
     this.studentService.getStudents().subscribe(response => {
       this.students = response;
-      this.filteredStudents = [...this.students]; // העתקת הנתונים
-      this.totalStudents = response.length; // ספירת כל התלמידים
+      this.filteredStudents = [...this.students]; 
+      this.totalStudents = response.length;
     }, error => {
-      console.error("❌ שגיאה בטעינת תלמידים:", error);
+      console.error(" שגיאה בטעינת תלמידים:", error);
     });
   }
 
-  /**
-   * 🔍 סינון לפי שם פרטי
-   */
+  
   applyFilter(): void {
     this.filteredStudents = this.students.filter(student =>
       student.firstName.toLowerCase().includes(this.searchValue.toLowerCase())
     );
-    this.currentPage = 1; // חזרה לדף הראשון לאחר חיפוש
+    this.currentPage = 1; 
   }
 
-  /**
-   * 📄 מחזירה את הרשומות לעמוד הנוכחי בלבד עם מיון
-   */
+ 
   getPaginatedStudents(): Student[] {
     if (!this.filteredStudents.length) return [];
 
@@ -56,7 +50,6 @@ export class StudentListComponent implements OnInit {
     const end = start + this.itemsPerPage;
     let paginatedStudents = this.filteredStudents.slice(start, end);
 
-    // ✅ ממיין **רק את הרשומות בדף הנוכחי**
     if (this.sortColumn) {
       paginatedStudents.sort((a, b) => {
         const valueA = a[this.sortColumn as keyof Student] ?? '';
@@ -71,9 +64,7 @@ export class StudentListComponent implements OnInit {
     return paginatedStudents;
   }
 
-  /**
-   * 📌 בקרת עימוד - דפים קדימה ואחורה
-   */
+  
   nextPage(): void {
     if (this.currentPage < this.getTotalPages()) {
       this.currentPage++;
@@ -86,30 +77,22 @@ export class StudentListComponent implements OnInit {
     }
   }
 
-  /**
-   * ⏮ מעבר לדף הראשון
-   */
+  
   goToFirstPage(): void {
     this.currentPage = 1;
   }
 
-  /**
-   * ⏭ מעבר לדף האחרון
-   */
+ 
   goToLastPage(): void {
     this.currentPage = this.getTotalPages();
   }
 
-  /**
-   * 🔄 מחשב את כמות הדפים
-   */
+  
   getTotalPages(): number {
     return Math.ceil(this.totalStudents / this.itemsPerPage);
   }
 
-  /**
-   * 🔃 מיון רק של העמוד הנוכחי
-   */
+  
   sort(column: string): void {
     if (this.sortColumn === column) {
       this.sortDirection = this.sortDirection === 'asc' ? 'desc' : 'asc';
