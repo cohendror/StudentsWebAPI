@@ -1,0 +1,23 @@
+/* ✅ הודעות שגיאה */
+.error {
+  color: red;
+  font-size: 12px;
+  display: block;
+  margin-top: 2px;
+}
+
+/* ✅ עיצוב הכפתור */
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }

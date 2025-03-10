@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using StudentsWebAPI.Data;
 using StudentsWebAPI.Models;
+using System.Threading.Tasks;
 
 namespace StudentsWebAPI.Controllers
 {
@@ -15,11 +16,24 @@ namespace StudentsWebAPI.Controllers
             _context = context;
         }
 
-        [HttpGet("GetStudents")] // ⬅ Add explicit route name
+        [HttpGet("GetStudents")] // ✅ Explicit route
         public ActionResult<IEnumerable<Student>> GetStudents()
         {
             return Ok(_context.Students.ToList());
         }
 
+        [HttpPost("AddStudent")] // ✅ API to add a new student
+        public async Task<IActionResult> AddStudent([FromBody] Student student)
+        {
+            if (student == null)
+            {
+                return BadRequest("Invalid student data.");
+            }
+
+            _context.Students.Add(student);
+            await _context.SaveChangesAsync();
+
+            return Ok(new { message = "Student added successfully!", student });
+        }
     }
 }

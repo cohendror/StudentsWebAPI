@@ -1,12 +1,68 @@
-<h2>הוספת תלמיד חדש</h2>
-<form (ngSubmit)="addStudent()">
-  <label>שם פרטי: <input type="text" [(ngModel)]="student.firstName" name="firstName" required></label><br>
-  <label>שם משפחה: <input type="text" [(ngModel)]="student.lastName" name="lastName" required></label><br>
-  <label>תעודת זהות: <input type="text" [(ngModel)]="student.idNumber" name="idNumber" required></label><br>
-  <label>תאריך לידה: <input type="date" [(ngModel)]="student.birthDate" name="birthDate" required></label><br>
-  <label>כתובת: <input type="text" [(ngModel)]="student.address" name="address"></label><br>
-  <label>טלפון: <input type="text" [(ngModel)]="student.phoneNumber" name="phoneNumber"></label><br>
-  <label>דוא"ל: <input type="email" [(ngModel)]="student.email" name="email"></label><br>
-  <label>תאריך הרשמה: <input type="date" [(ngModel)]="student.enrollmentDate" name="enrollmentDate" required></label><br>
-  <button type="submit">הוסף תלמיד</button>
+<h2> הוספת תלמיד חדש</h2>
+
+<form [formGroup]="studentForm" (ngSubmit)="addStudent()">
+  <label>
+    שם פרטי:
+    <input type="text" formControlName="firstName">
+    <span class="error" *ngIf="studentForm.controls['firstName'].invalid && studentForm.controls['firstName'].touched">
+      שם פרטי נדרש (לפחות 2 תווים)
+    </span>
+  </label><br>
+
+  <label>
+    שם משפחה:
+    <input type="text" formControlName="lastName">
+    <span class="error" *ngIf="studentForm.controls['lastName'].invalid && studentForm.controls['lastName'].touched">
+      שם משפחה נדרש (לפחות 2 תווים)
+    </span>
+  </label><br>
+
+  <label>
+    תעודת זהות:
+    <input type="text" formControlName="idNumber">
+    <span class="error" *ngIf="studentForm.controls['idNumber'].invalid && studentForm.controls['idNumber'].touched">
+      ת"ז חייבת להיות 9 ספרות
+    </span>
+  </label><br>
+
+  <label>
+    תאריך לידה:
+    <input type="date" formControlName="birthDate">
+    <span class="error" *ngIf="studentForm.controls['birthDate'].invalid && studentForm.controls['birthDate'].touched">
+      בחר תאריך לידה
+    </span>
+  </label><br>
+
+  <label>
+    כתובת:
+    <input type="text" formControlName="address">
+  </label><br>
+
+  <label>
+    טלפון:
+    <input type="text" formControlName="phoneNumber">
+    <span class="error" *ngIf="studentForm.controls['phoneNumber'].invalid && studentForm.controls['phoneNumber'].touched">
+      מספר טלפון חייב להיות 10 ספרות
+    </span>
+  </label><br>
+
+  <label>
+    דו֐ל:
+    <input type="email" formControlName="email">
+    <span class="error" *ngIf="studentForm.controls['email'].invalid && studentForm.controls['email'].touched">
+      כתובת דו"ל לא תקינה
+    </span>
+  </label><br>
+
+  <label>
+    תאריך הרשמה:
+    <input type="date" formControlName="enrollmentDate">
+    <span class="error" *ngIf="studentForm.controls['enrollmentDate'].invalid && studentForm.controls['enrollmentDate'].touched">
+      בחר תאריך הרשמה
+    </span>
+  </label><br>
+
+  <button type="submit" [disabled]="studentForm.invalid || isSubmitting">
+    {{ isSubmitting ? ' שומר...' : ' הוסף תלמיד' }}
+  </button>
 </form>
