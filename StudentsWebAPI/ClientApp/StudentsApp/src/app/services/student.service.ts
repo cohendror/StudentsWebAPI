@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpParams } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { Student } from '../models/student.model';
-import { catchError, map } from 'rxjs/operators';
+import { catchError } from 'rxjs/operators';
 import { Observable, of } from 'rxjs';
 
 @Injectable({
@@ -13,22 +13,25 @@ export class StudentService {
   constructor(private http: HttpClient) { }
 
   /**
-   * ✅ Fetch students (pagination not supported by API, so we handle it on the frontend)
+   * ✅ Fetch all students
    */
   getStudents(): Observable<Student[]> {
     return this.http.get<Student[]>(`${this.apiUrl}/GetStudents`).pipe(
       catchError(error => {
         console.error("❌ API Error:", error);
-        return of([]); // Return empty array to prevent crashes
+        return of([]); // Return empty array on failure
       })
     );
   }
 
+  /**
+   * ✅ Add a new student
+   */
   addStudent(student: Student): Observable<Student> {
-    return this.http.post<Student>(this.apiUrl, student).pipe(
+    return this.http.post<Student>(`${this.apiUrl}/AddStudent`, student).pipe(
       catchError(error => {
         console.error("❌ Error adding student:", error);
-        return of(student); // Prevent crash
+        return of(student); // Prevents crashes
       })
     );
   }
